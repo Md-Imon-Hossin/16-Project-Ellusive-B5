@@ -1,0 +1,264 @@
+@media (max-width: 1400px) {
+  .map-right iframe {
+    margin-top: 20px;
+    height: 270px;
+    border-radius: 7px;
+    width: 100%;
+  }
+}
+@media (max-width: 1276px) {
+}
+
+@media (max-width: 1200px) {
+  .footer-left p {
+    color: #777;
+    font-size: 0.8rem;
+  }
+  .lorem-ipsum-content-right h2 {
+    color: #777;
+    font-size: 2.35rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+  }
+  .lorem-ipsum-content-right p {
+    color: #777;
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  .newsLetter-right a {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1068px) {
+}
+
+@media (max-width: 992px) {
+  .map-left p {
+    text-align: justify;
+    font-size: 0.77rem;
+    line-height: 1.7em;
+    margin-top: 35px;
+  }
+  .map-left ul li {
+    line-height: 1.9em;
+    font-size: 0.7rem;
+  }
+  .map-left address {
+    margin-top: 60px;
+    line-height: 1.9em;
+    font-size: 0.9rem;
+  }
+  .quam-setting-content h4 {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .quam-setting-item span {
+    display: block;
+    color: #fff;
+    background-color: #287b7b;
+    border: 3px solid #50c6c6;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    line-height: 100px;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  .lorem-card-title h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .lorem-card-title p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 13px;
+  }
+  .lorem-card-item .card .card-body h4 {
+    margin-top: 10px;
+    color: #50c6c6;
+    font-size: 1rem;
+  }
+  .lorem-card-item .card .card-body .card-body-inner-content ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 4px;
+    color: #777;
+    font-size: 0.7rem;
+  }
+  .lorem-ipsum-content-left {
+    text-align: center;
+  }
+  .lorem-ipsum-content-right {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .lorem-logo-title h1 {
+    color: #777;
+    font-size: 2rem;
+  }
+  .lorem-logo-title p {
+    color: #777;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+@media (max-width: 856px) {
+  .header-left a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+  }
+  .header-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    padding: 0 10px;
+    font-size: 0.9rem;
+  }
+  .w-100 {
+    width: 100% !important;
+    height: 305px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-left p {
+    color: #777;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .footer-right ul {
+    text-align: center;
+  }
+  .quam-setting-content h4 {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .quam-setting-content p {
+    font-size: 10px;
+    line-height: 1.8em;
+    margin-top: 12px;
+  }
+  .header-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    padding: 0 10px;
+    font-size: 0.7rem;
+  }
+  .header-left a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+  }
+  .header-left p {
+    color: #777;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .lorem-card-item .card {
+    margin: auto;
+  }
+  .lorem-card-title h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .lorem-logo-title h1 {
+    color: #777;
+    font-size: 1.6rem;
+  }
+  .newsLetter-left span {
+    display: inline-block;
+    float: left;
+    color: #287b7b;
+    font-size: 35px;
+    margin-right: 15px;
+  }
+  .newsLetter-left h3 {
+    color: #fff;
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+  }
+  .newsLetter-right input {
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    height: 53px;
+  }
+}
+@media (max-width: 636px) {
+  .newsLetter-right a {
+    color: #50c6c6;
+    background-color: #287b7b;
+    border: 1px solid #287b7b;
+    font-size: 18px;
+    padding: 7px 24px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .newsLetter-right input {
+    width: 250px;
+    display: inline-block;
+    margin-right: 20px;
+    height: 53px;
+  }
+}
+@media (max-width: 576px) {
+  .header-left {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .header-right ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .lorem-logo-item {
+    text-align: center;
+    margin-bottom: 7px;
+  }
+  .lorem-logo-title h1 {
+    color: #777;
+    font-size: 1.2rem;
+  }
+  .lorem-item-images {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+  .newsLetter-left {
+    text-align: center;
+  }
+  .newsLetter-right {
+    text-align: right;
+  }
+  .lead {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+@media (max-width: 456px) {
+  .newsLetter-right input {
+    width: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    height: 53px;
+  }
+  .newsLetter-right a {
+    margin-top: -2px;
+  }
+}
+@media (max-width: 416px) {
+}

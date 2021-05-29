@@ -1,0 +1,424 @@
+/* ========================== Default Css ==================================== */
+
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* ======================= Header ============================= */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 99;
+  background: #fff;
+}
+.header-left {
+  margin-top: 15px;
+}
+.header-left a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.header-left p {
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+}
+.header-right ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  margin-top: 25px;
+}
+.header-right ul li {
+  display: inline-block;
+}
+.header-right ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  padding: 0 18px;
+}
+.header-right ul li a span {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+/* ================================= DropDown Menu ========================== */
+.header-right ul li {
+  position: relative;
+}
+.header-right ul li ul {
+  position: absolute;
+  top: 144%;
+  left: 0;
+  width: 230px;
+  background-color: red;
+  z-index: 99;
+  padding-left: 0;
+  padding-bottom: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+.header-right ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+}
+.header-right ul li ul li {
+  padding: 10px 30px;
+}
+.header-right ul li ul li a {
+  font-size: 17px;
+  color: #777;
+  font-weight: 400;
+}
+/* ========================== Slider/Carousel =========================== */
+.slider {
+  margin-top: 85px;
+}
+.carousel-item .carousel-caption.one {
+  text-align: left;
+  margin-bottom: 35px;
+}
+.carousel-item .carousel-caption.cap-two {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.carousel-item .carousel-caption.one h2 {
+  margin-bottom: 7px;
+  text-align: left;
+  color: #fff;
+}
+.carousel-item .carousel-caption.two h2 {
+  margin-bottom: 7px;
+}
+.carousel-item .carousel-caption.one h3 {
+  margin-bottom: 25px;
+}
+.carousel-item .carousel-caption.two h3 {
+  margin-bottom: 25px;
+}
+.carousel-item .carousel-caption.one p {
+  color: #fff;
+}
+.carousel-item .carousel-caption.two p {
+  padding: 4px 10px;
+}
+.carousel-item .carousel-caption.one p.pone {
+}
+.carousel-item .carousel-caption.two p.para-two {
+  padding: 5px 10px;
+}
+.carousel-item .carousel-caption.one a {
+  background-color: #50c6c6;
+  color: #fff;
+}
+.carousel-item .carousel-caption.two a {
+  background-color: #50c6c6;
+  color: #fff;
+  text-align: left;
+}
+.carousel-item .carousel-caption.three a {
+  background-color: #50c6c6;
+  color: #fff;
+}
+.carousel-item .carousel-caption.three {
+  text-align: right;
+  margin-bottom: 35px;
+}
+/* ============================ Quam Setting  ==============================  */
+.quam-setting {
+  background-color: #50c6c6;
+}
+.quam-setting-item span {
+  display: block;
+  color: #fff;
+  background-color: #287b7b;
+  border: 3px solid #50c6c6;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: auto;
+  font-size: 55px;
+  line-height: 110px;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.quam-setting-item span:hover {
+  background-color: #fff;
+  color: #50c6c6;
+  border: 3px solid #fff;
+}
+
+.quam-setting-content h4 {
+  margin-top: 15px;
+}
+.quam-setting-content p {
+  font-size: 14px;
+  line-height: 1.8em;
+  margin-top: 20px;
+}
+/* ============================== Lorem Card ================================= */
+.lorem-card {
+  background: url(./img//chair.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 30px 0;
+  min-height: 740px;
+  position: relative;
+  z-index: 1;
+}
+.lorem-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.lorem-card-title {
+  margin-top: 40px;
+}
+.lorem-card-title h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+.lorem-card-item {
+  margin-bottom: 80px;
+}
+.lorem-card-item .card {
+  background-color: #000;
+  width: 90%;
+  border: none;
+  border: 1px solid #333;
+}
+.lorem-card-item .card .card-body h4 {
+  margin-top: 10px;
+  color: #50c6c6;
+  font-size: 1.45rem;
+}
+.lorem-card-item .card .card-body .card-body-inner-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 30px;
+}
+.lorem-card-item .card .card-body .card-body-inner-content ul li {
+  display: inline-block;
+}
+.lorem-card-item .card .card-body .card-body-inner-content ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #777;
+  font-size: 0.8rem;
+}
+.lorem-card-item .card .card-body .card-body-inner-content ul li a span {
+  display: inline-block;
+  margin-right: 3px;
+}
+.card-body-btn {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.card-body-btn a {
+  background-color: #50c6c6;
+  font-size: 0.8rem;
+  border-radius: 8px;
+}
+/* ==================== Lorem Ipsum Content ============================== */
+.lorem-ipsum-content {
+  padding: 60px 0;
+}
+.lorem-ipsum-content-right h2 {
+  color: #777;
+  font-size: 2.85rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+.lorem-ipsum-content-right p {
+  color: #777;
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+.lorem-ipsum-content-right ul {
+  list-style: none;
+  padding-left: 0;
+}
+.lorem-ipsum-content-right ul li {
+  color: #777;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.lorem-ipsum-content-right ul li span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.lorem-ipsum-content-right .lorem-content-btn a {
+  display: inline-block;
+  background-color: #50c6c6;
+  color: #fff;
+  margin-right: 15px;
+  border: 1px solid #50c6c6;
+}
+.lorem-ipsum-content-right .lorem-content-btn .lorem-content-btn-two {
+  background-color: #777;
+  color: #fff;
+  border: 1px solid #777;
+}
+/* =========================== Lorem Logo ====================== */
+.lorem-logo {
+  background-color: #f3f3f5;
+  padding: 60px 0;
+}
+.lorem-logo-title {
+  margin-bottom: 70px;
+}
+.lorem-logo-title h1 {
+  color: #777;
+  font-size: 2.75rem;
+}
+.lorem-logo-title p {
+  color: #777;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.lorem-logo-title p span {
+  color: #50c6c6;
+  display: inline-block;
+  font-weight: 500;
+}
+/* ========================== Strong Company ============================== */
+.start-company {
+  padding: 70px 0;
+}
+.lorem-item-images img {
+  border-radius: 50%;
+  border: 1px solid #50c6c6;
+  width: 170px;
+}
+/* =========================== NewsLetter ============================== */
+.newsLetter {
+  background-color: #50c6c6;
+  padding: 30px 0;
+}
+.newsLetter-left span {
+  display: inline-block;
+  float: left;
+  color: #287b7b;
+  font-size: 45px;
+  margin-right: 15px;
+}
+.newsLetter-left h3 {
+  color: #fff;
+  position: relative;
+  top: 15px;
+}
+.newsLetter-right {
+  margin-top: 16px;
+}
+.newsLetter-right input {
+  width: 350px;
+  display: inline-block;
+  margin-right: 20px;
+  height: 53px;
+}
+.newsLetter-right a {
+  color: #50c6c6;
+  background-color: #287b7b;
+  border: 1px solid #287b7b;
+  font-size: 23px;
+  padding: 7px 35px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+/* ============================= Map Section ================================ */
+.map {
+  background-color: #232323;
+  padding: 60px 0;
+}
+.map-left {
+  color: #777;
+}
+.map-left h2 {
+  font-size: 2.75rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #777;
+  padding-bottom: 20px;
+}
+.map-left p {
+  text-align: justify;
+  font-size: 0.97rem;
+  line-height: 1.7em;
+  margin-top: 35px;
+}
+.map-left address {
+  margin-top: 60px;
+  line-height: 1.9em;
+}
+.map-left ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  margin-top: -100px;
+}
+.map-left ul li {
+  line-height: 1.9em;
+}
+.map-left ul li span {
+  margin-right: 10px;
+}
+.map-right {
+  color: #777;
+}
+.map-right h2 {
+  font-size: 2.75rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #777;
+  padding-bottom: 20px;
+}
+.map-right iframe {
+  margin-top: 20px;
+  height: 270px;
+  border-radius: 7px;
+}
+/* ============================= Footer =========================== */
+.footer {
+  background-color: #232323;
+  padding: 20px 0;
+  border-top: 1px solid #777;
+}
+.footer-left {
+  margin-top: 10px;
+}
+.footer-left p {
+  color: #777;
+}
+.footer-right {
+  margin-top: 10px;
+}
+.footer-right ul {
+  text-align: right;
+}
+.footer-right ul li {
+  display: inline-block;
+}
+.footer-right ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #777;
+}
